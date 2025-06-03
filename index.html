@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lange="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> complete responsive tour and travel agency website design</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+        <!-- font awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+        <!-- custom css file link-->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- header section start-->
+        <header>
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"><span>T</span>ravel</a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">Packages</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+
+        </header>
+        <!-- header section end-->
+
+        <!-- login form container-->
+
+        <div class="login-form-container">
+
+            <i class="fas fa-times" id="form-close"></i>
+
+            <form action= "" >
+                <h3>login</h3>
+                <input type="email" class="box" placeholder="enter your email">
+                <input type="password" class="box" placeholder="enter your password">
+                <input type="submit" value="login now" class="btn">
+                <input type="checkbox" id="remember">
+                <label for="remember">remember me</label>
+                <p>forgeet password?<a href="#">click here</a></p>
+                <p>Don't have and account? <a href="#"> register now</a></p>
+           </form>
+
+           
+        </div>
+
+        <!-- home section starts-->
+
+        <section class="home" id="home">
+
+            <div class="content">
+                <h3>adventure is worthwhile</h3>
+                <p>dicover new places with us, adventure awaits</p>
+                <a href="#" class="btn">discover more</a>
+            </div>
+
+            <div class="controls">
+                <span class="vid-btn active" data-src="D:/Tour and travel agency/images/vid-1.mp4"></span>
+                <span class="vid-btn" data-src="D:/Tour and travel agency/images/vid-2.mp4"></span>
+                <span class="vid-btn" data-src="D:/Tour and travel agency/images/vid-3.mp4"></span>
+                <span class="vid-btn" data-src="D:/Tour and travel agency/images/vid-4.mp4"></span>
+                <span class="vid-btn" data-src="D:/Tour and travel agency/images/vid-5.mp4"></span>
+            </div>
+
+            <div class="video-container">
+                <video src="D:/Tour and travel agency/images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+            
+        </section>
+
+        <!--home section ends-->
+
+        <!-- book section starts-->
+
+        <section class="book" id="book">
+            
+            <h1 class="heading">
+                <span>b</span>
+                <span>o</span>
+                <span>o</span>
+                <span>k</span>
+                <span class="space"></span>
+                <span>n</span>
+                <span>o</span>
+                <span>w</span>
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <img src="D:\Tour and travel agency\images\sri lanka.jpg" alt="">
+                </div>
+
+                <form action="">
+                    <div class="inputbox">
+                        <h3>where to</h3>
+                        <input type="text" placeholder="place name">
+                    </div>
+                    <div class="inputbox">
+                        <h3> how many</h3>
+                        <input type="number" placeholder="number of guests">
+                    </div>
+                    <div class="inputbox">
+                        <h3>arrivals</h3>
+                        <input type="date">
+                    </div>
+                    <div class="inputbox">
+                        <h3>leaving</h3>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+            </div>
+
+        </section>
+
+        <!--book section ends-->
+
+        <!-- packages section starts -->
+
+        <section class="packages" id="packages">
+
+            <h1 class="heading">
+                <span>p</span>
+                <span>a</span>
+                <span>c</span>
+                <span>k</span>
+                <span>a</span>
+                <span>g</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\sigiriya0.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Sigiriya </h3>
+                        <p>Climb the famous Lion Rock fortress and admire stunning views and frescoes!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\Anuradhapura0.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Anuradhapura </h3>
+                        <p>Discover ancient ruins and sacred Buddhist temples in Sri Lanka’s historic city!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\kandy0.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Kandy </h3>
+                        <p>Visit the Temple of the Tooth and enjoy the scenic lake and cultural shows!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\jaffna.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Jaffna </h3>
+                        <p>Explore Jaffna’s unique Tamil heritage, colorful markets, and historic forts!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\nuwaraeliya0.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Nuwara Eliya </h3>
+                        <p>Experience the cool climate, tea gardens, and beautiful waterfalls of the hill country!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\colombo.jpg" alt="">
+                    <div class="content">
+                        <h3> <i class="fas fa-map-marker-alt"></i> Colombo </h3>
+                        <p>Traveling opens new horizons!</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="price"> $90.00 <span>$120.00</span> </div>
+                        <a href="#" class="btn">book now</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- packages section ends -->
+
+        <!-- service section start-->
+
+        <section class="services" id="services">
+
+            <h1 class="heading">
+                <span>S</span>
+                <span>e</span>
+                <span>r</span>
+                <span>v</span>
+                <span>i</span>
+                <span>c</span>
+                <span>e</span>
+                <span>s</span>
+            </h1>
+
+            <div class ="box-container">
+
+                <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>affordable hotels</h3>
+                    <p>Stay comfortably without worrying about high prices or hidden fees. </p> 
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>food and drinks</h3>
+                    <p>Taste local flavors and enjoy delicious meals wherever you go.</p> 
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>safty guide</h3>
+                    <p>Travel confidently knowing your safety is always our top priority.</p> 
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>around the world</h3>
+                    <p>Discover new places and cultures with expert guidance and support.</p> 
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>faster travels</h3>
+                    <p>Reach your destinations quickly using reliable and efficient travel options.</p> 
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>adventute</h3>
+                    <p>Experience thrilling activities that create unforgettable memories every trip.</p> 
+                </div>
+            </div>
+        </section>
+
+        <!-- service section ends-->
+
+        <!--gallery section start-->
+
+        <section class="gallery" id="gallery">
+
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>r</span>
+                <span>y</span>
+            </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery1.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Discover breathtaking views and hidden gems in every amazing place.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery2.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Explore stunning landscapes filled with culture and unforgettable experiences.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery3.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Wander through nature’s beauty and historic wonders around every corner.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery4.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Experience vibrant colors and unique charm in these amazing destinations.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery5.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Journey to spectacular sites where adventure and beauty come alive.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery6.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Visit spectacular destinations that inspire wonder and lasting memories.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery7.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Explore unique locations full of charm, culture, and breathtaking views.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery8.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Discover peaceful retreats surrounded by nature’s most beautiful treasures.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+
+                <div class="box">
+                    <img src="D:\Tour and travel agency\images\gallery9.jpg" alt="">
+                    <div class="content">
+                        <h3>amazing places</h3>
+                        <p>Experience unforgettable moments in places full of natural beauty.</p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                </div>
+            </div>
+        </section>>
+        
+        <!--gallery section ends-->
+        
+
+        <!--review section starts-->
+
+        <section class="review" id="review">
+
+            <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+                
+            </h1>
+
+            <div class="swiper-container review-slider">
+
+                <div class="swiper-wrapper">
+
+                      <div class="swiper-slide">
+                        <div class="box">
+                            <img src="D:\Tour and travel agency\images\nadeesha.jpg" alt="">
+                            <h3>Nadeesha Perera</h3>
+                            <p>I had an incredible experience with this travel agency. From the moment I booked my trip, 
+                                they were attentive and made sure every detail was perfect. The hotels were comfortable, 
+                                and the local guides were friendly and knowledgeable. 
+                                I truly felt cared for throughout the journey. 
+                                It was a stress-free vacation, and I would definitely recommend them to friends and family.</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="D:\Tour and travel agency\images\kavindu.jpg" alt="">
+                            <h3>Kavindu Fernando</h3>
+                            <p>Booking with this agency was one of the best decisions I’ve made 
+                                for my vacation. They helped me plan everything exactly how I wanted,
+                                 answering all my questions patiently. During the trip, I was amazed by the 
+                                 beautiful places I visited and how smoothly everything went. 
+                                The staff’s professionalism and kindness made me feel very comfortable and valued.</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="box">
+                            <img src="D:\Tour and travel agency\images\tharushi.jpg" alt="">
+                            <h3>Tharushi Senanayake</h3>
+                            <p>I can honestly say this was one of the most enjoyable trips 
+                                I’ve ever taken. The travel agency took care of all the arrangements,
+                                 so I could just relax and enjoy. Each day was filled with exciting new experiences, 
+                                 and the guides made sure I learned a lot about the culture and history. 
+                                I felt safe and well-supported from start to finish..</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                        </div>
+                    </div>
+
+                   <!-- <div class="swiper-slide">
+                        <div class="box">
+                            <img src="D:\Tour and travel agency\images\isuru.jpg" alt="">
+                            <h3>Isuru Madushan</h3>
+                            <p>Traveling with this agency exceeded my expectations.
+                                They listened carefully to what I wanted and customized the trip 
+                                perfectly. The local guides were not only knowledgeable but also 
+                                friendly and approachable, which made the whole experience more personal.
+                                 I loved visiting hidden spots that only locals know about. 
+                                This trip gave me memories that I will cherish forever..</p>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--review section ends-->
+
+        <!--contact section start-->
+
+        <section class="contact">
+
+               <h1 class="heading">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+                
+            </h1>
+
+            <div class="row">
+
+                <div class="image">
+                    <image src="D:\Tour and travel agency\images\contact1.jpg" alt="">
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="email">
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="number" placeholder="number">
+                        <input type="text" placeholder="subject">
+                    </div>
+
+                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="send message">
+                </form>
+            </div>
+        </section>
+        <!--contact section ends-->
+
+        <!--brand section-->
+
+        <section class="brand-container">
+
+            <div class="swiper-container brand-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="D:\Tour and travel agency\images\dialog.jpg" atl=""></div>
+                    <div class="swiper-slide"><img src="D:\Tour and travel agency\images\samsung.jpg" atl=""></div>
+                    <div class="swiper-slide"><img src="D:\Tour and travel agency\images\cocacola.jpg" atl=""></div>
+                    <!--<div class="swiper-slide"><img src="D:\Tour and travel agency\images\hiru.jpg" atl=""></div>
+                    <div class="swiper-slide"><img src="D:\Tour and travel agency\images\derana.jpg" atl=""></div>
+                    <div class="swiper-slide"><img src="D:\Tour and travel agency\images\nawaloka.jpg" atl=""></div>
+                    <div class="swiper-slide"><img src="D:\Tour and travel agency\images\fanta.jpg" atl=""></div>
+                    <div class="swiper-slide"><img src="D:\Tour and travel agency\images\kfc.jpg" atl=""></div>-->
+                </div>
+            </div>
+        </section>
+
+        <!--footer section-->
+
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>Lorem ipsum dolor sit amet consecteture adipisicing elit. Assumed quas magni 
+                        pariatur est accusntium voluptas enim nemo facilis sit debitis</p>
+                </div>
+
+                <div class="box">
+                    <h3>branch locations</h3>
+                    <a href="#">Colombo</a>
+                    <a href="#">Anuradhapura</a>
+                    <a href="#">Katunayake</a>
+                    <a href="#">Horana</a>
+                    <a href="#">Kandy</a>
+                </div>
+
+                 <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">book</a>
+                    <a href="#">packages</a>
+                    <a href="#">services</a>
+                    <a href="#">gallery</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                </div>
+
+                 <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">Linkedin</a>
+                    <a href="#">whatsapp</a>
+                </div>
+            </div>
+
+            <h1 class="credit"> created by <span> web designer</span> all right reserved! </h1>
+        </section>
+
+
+
+
+
+
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- custom js file link -->
+         <script src="script.js"></script>
+
+    </body>
+</html>
